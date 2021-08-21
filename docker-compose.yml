@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  terraform:
+    build: ./tf-helm-k8s/tf12-helm3-k8s
+    image: bihgoncalves/tf-helm-k8s:0.12.31
+    working_dir: /work
+    entrypoint: [""]
